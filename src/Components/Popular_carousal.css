@@ -1,0 +1,78 @@
+.popular_carousal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.popular_title{
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.popular_text_button{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.popular_text{
+    text-align: left;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    width: 409px;
+    margin: 0;
+    padding: 0;
+}
+
+.popular_button{
+    position: absolute;
+    right: 0;
+    width: 109px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 25px;
+    font-family: 'Open Sans';
+    background-color: #c1ddd1;
+    color: #24AB70;
+    border: none;
+
+}
+
+.popular_button:hover{
+    background-color: #24AB70;
+    color: #c1ddd1;
+}
+
+
+
+.popular-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    right: 50px;
+}
+
+.popular-items-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust spacing between items */
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+.popular-item {
+    flex: 0 0 calc(25% - 20px); /* Adjust item width to fit four items per row with space between them */
+  margin-bottom: 20px; /* Add margin between items */
+  box-sizing: border-box; /* Include padding and border in the item's total width */
+}
+
+.popular-item:last-child {
+    margin-right: 0; /* Remove margin from the last item in each row */
+}

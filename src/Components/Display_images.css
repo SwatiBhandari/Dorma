@@ -1,0 +1,16 @@
+.display_images{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.actual_image{
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    justify-content: center;
+    border-radius: 25px;
+}

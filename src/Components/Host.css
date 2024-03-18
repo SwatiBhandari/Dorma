@@ -1,0 +1,142 @@
+.form-container {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open-Sans";
+  }
+  
+  h1{
+    color: #24AB70;
+    margin-bottom: 5vh;
+  }
+  
+
+  .dorm-form {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 7vh;
+    margin-right: 7vh;
+  }
+
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col {
+    width: calc(50% - 10px); /* Adjust spacing between columns */
+  }
+
+  
+  label {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="file"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .amenities {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .amenities label{
+    font-weight: normal;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  button {
+    width: 40%;
+    height: 40px;
+    font-size: 14px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    font-family: 'Open Sans';
+    background-color: #24AB70;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .rules {
+    margin-bottom: 10px;
+  }
+  
+  .rule-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .rule-item span {
+    flex-grow: 1;
+  }
+  
+  .rule-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rule-item button:hover {
+    background-color: #c82333;
+  }
+  
+  .add-rule {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-rule input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .add-rule button {
+    width: 30%;
+    font-size: 16px;
+    border-radius: 25px;
+    font-family: 'Open Sans';
+    background-color: #c1ddd1;
+    color: #24AB70;
+    border: none;
+  }
+  
+  .add-rule button:hover {
+    background-color: #0056b3;
+  }
+
+  .form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="file"],
+.form-group textarea {
+  width: calc(100% - 20px); /* Reduce the width of the input fields */
+  border: none;
+  outline: none;
+}

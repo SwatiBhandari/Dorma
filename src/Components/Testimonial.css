@@ -1,0 +1,25 @@
+.Testimonial{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.slide{
+    width: 1280px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.Testimonial_title{
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}

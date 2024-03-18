@@ -1,0 +1,178 @@
+.search_tab{
+    position: absolute;
+    z-index: 2;
+    width: 800px;
+    height: 70px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    top: 520px; /* Adjust the top position to overlap with Header */
+    left: calc(50% - 400px); /* Adjust the left position to center the Search_tab */
+}
+
+.location_tab{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    width: 260px;
+    height: 70px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #FFFFFF;
+    border-right: 2px solid black; 
+    border: none;
+}
+
+.where{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.loaction_input{
+    display: flex;
+    width: 210px;
+    justify-items: start;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.loaction_input::placeholder{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: rgb(141, 140, 140);
+}
+
+.loaction_input:focus{
+    border: none;
+    outline: none;
+}
+
+.checkin_tab{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 260px;
+    flex-direction: column;
+    width: 150px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+
+.checkin_title{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.add_date{
+    display: flex;
+    justify-items: start;
+    padding-top: 0;
+    margin-top: -2px;
+    margin-left: 20px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: rgb(141, 140, 140);
+}
+
+.checkout_tab{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 410px;
+    flex-direction: column;
+    width: 150px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+
+.guest_tab{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 560px;
+    flex-direction: column;
+    width: 170px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+
+.who{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.guests{
+    display: flex;
+    justify-items: start;
+    padding-top: 0;
+    margin-top: -2px;
+    margin-left: 20px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: rgb(141, 140, 140);
+}
+
+.search_icon{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 720px;
+    flex-direction: column;
+    width: 55px;
+    height: 55px;
+    background-color: #24AB70;
+    margin-top: 7px;
+    margin-left: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.icon{
+    height: 20px;
+}
+
+.autocomplete {
+    position: absolute;
+    width: calc(100% - 20px); /* Adjust width as needed */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1;
+    top: calc(100% + 5px); /* Position the dropdown below the input */
+    left: 10px; /* Adjust left position as needed */
+}
+
+.autocomplete-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.autocomplete-item:hover {
+    background-color: #f4f4f4;
+}
+
+.autocomplete-item span {
+    display: block;
+    text-align: left;
+}

@@ -1,0 +1,43 @@
+.contact_us {
+    width: 1280px;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Open-Sans';
+}
+
+.contact_us_left {
+    text-align: left;
+}
+
+.contact_us_left p{
+    padding: 0;
+    margin: 0;
+}
+
+.contact_us_left h1{
+    margin-bottom: 2vh;
+}
+
+.contact_us_right{
+    border: none;
+}
+
+.contact-form{
+    align-items: left;
+    padding: 3vh;
+    box-shadow: none;
+}
+
+.contact-form-group{
+    margin-bottom: 2vh;
+}
+
+.contact-message{
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
